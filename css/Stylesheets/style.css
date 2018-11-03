@@ -1,0 +1,423 @@
+/* The best way */
+/* The best way */
+.btn--spanish, .btn--english {
+  min-width: 100px;
+  padding: 1em;
+  border-radius: 1em;
+  font-family: cursive; }
+
+.btn--spanish:hover, .btn--english:hover {
+  background-color: lightgrey;
+  color: inherit;
+  -webkit-transition-delay: 0.1s;
+  -o-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  -webkit-transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
+  transition-duration: 0.1s; }
+
+.btn--spanish {
+  color: #fff;
+  background: #3b5998; }
+
+.btn--english {
+  color: #fff;
+  background: #3b5998; }
+
+.header {
+  background-image: url("../images/mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*TO ADD FLEXBOX to the flex children, change flex direction from default row to flex-direction column so our main axis is top to bottom*/
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  /*TO PUT THEM IN THE MIDDLE OF THE PAGE*/ }
+
+.header_headline {
+  margin: 0; }
+
+.header_menu {
+  list-style: none;
+  /*to get rid of dots*/
+  padding: 10;
+  margin: 10;
+  font-weight: bolder; }
+
+.header_menu a {
+  text-decoration: none; }
+
+.header_menu li {
+  display: inline-block;
+  margin: 30px;
+  font-size: 30px; }
+
+.header_menu li:hover {
+  background-color: lightgrey;
+  color: black;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s; }
+
+/*HEADER ENDS HERE*/
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active, a:hover {
+  outline: 0; }
+
+h1 {
+  font-size: 2em; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: 700; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+button, input {
+  line-height: normal; }
+
+button, html input[type=button],
+input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled], input[disabled] {
+  cursor: default; }
+
+input[type=checkbox], input[type=radio] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body, figure {
+  margin: 0; }
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: #FBFCFD;
+  color: #10252B;
+  font-size: 25px;
+  line-height: 1.4;
+  font-weight: 400;
+  text-align: center;
+  margin: 0; }
+
+/*HOME ICON STARTS HERE*/
+/*get rid of the dot on the li for home*/
+.header_nav ul li {
+  list-style: none; }
+
+/*make home color = white and get rid of underline*/
+.header_nav ul li a {
+  color: white;
+  text-decoration: none; }
+
+/*HOME ICON ENDS HERE*/
+/*THE <nav class="homeFooter"> STARTS HERE*/
+.homeFooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; }
+
+li {
+  list-style: none; }
+
+li a {
+  color: white;
+  text-decoration: none; }
+
+/*THE <nav class="homeFooter"> ENDS HERE*/
+/*THE PROJECT <nav class="homeFooter"> STARTS HERE*/
+.homeFooter {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  background-color: lightgrey; }
+
+li {
+  list-style: none; }
+
+li a {
+  color: white;
+  text-decoration: none;
+  padding: 40px; }
+
+li a:hover {
+  background-color: rgba(1, 1, 1, 0.3);
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s; }
+
+/*the above also affects the index menu of options - THE <nav class="homeFooter"> ENDS HERE*/
+/*THE ENGLISH SPANISH BUTTON STARTS*/
+section form input {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 20px; }
+
+section form input:hover {
+  background-color: rgba(1, 1, 1, 0.3);
+  color: white; }
+
+/*THE ENGLISH SPANISH BUTTON ENDS*/
+/*ABOUT STARTS HERE
+  About describes the background of the company.*/
+p {
+  font-size: 25px;
+  padding: 20px;
+  background-color: whitesmoke; }
+
+p:hover {
+  background-color: lightblue; }
+
+/*ABOUT ENDS HERE*/
+/*CONTACT INFO IS IN FOOTER WHICH STARTS HERE*/
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+footer h3 {
+  background-color: whitesmoke; }
+
+/*CONTACT FOOTER ENDS HERE*/
+/*PROJECTS STARTS HERE*/
+.container {
+  background-color: lightgrey;
+  background-image: url("../css/images/mountain.jpg");
+  background-repeat: no-repeat;
+  opacity: .9;
+  background-size: cover;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.projectCheckbox {
+  position: absolute;
+  top: -1000px;
+  left: -1000px; }
+
+.projectWrapper {
+  display: block; }
+
+.moreInfo {
+  height: 0;
+  overflow: hidden;
+  margin: 0; }
+
+#project1:checked + label .moreInfo {
+  height: 100%;
+  overflow: visible;
+  -webkit-transition-delay: 0.1s;
+  -o-transition-delay: 0.1s;
+  transition-delay: 0.1s; }
+
+#project1:checked + div .flexli {
+  background-color: blue; }
+
+#project2:checked + label .moreInfo {
+  height: 100%;
+  overflow: visible; }
+
+#project3:checked + label .moreInfo {
+  height: 100%;
+  overflow: visible; }
+
+#project4:checked + label .moreInfo {
+  height: 100%;
+  overflow: visible; }
+
+#project5:checked + label .moreInfo {
+  height: 100%;
+  overflow: visible;
+  -webkit-transition-delay: 0.1s;
+  -o-transition-delay: 0.1s;
+  transition-delay: 0.1s; }
+
+#project6:checked + label .moreInfo {
+  height: 100%;
+  overflow: visible; }
+
+#project7:checked + label .moreInfo {
+  height: 100%;
+  overflow: visible; }
+
+/*add styling, and transition*/
+/*want to move the four boxes left*/
+.flexprojects {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* to see the border -   border: #333 solid 2px;*/
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: whitesmoke; }
+
+div {
+  min-width: 24%; }
+
+.flexprojects ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.flexli {
+  width: 300px;
+  height: 70px;
+  width: auto;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-top: 1px;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 1px;
+  border-top: 10px;
+  border-bottom: 10px; }
+
+/*default value is to not show the detailed text*/
+/*PROJECTS ENDS HERE*/
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 72px; }
+
+h2 {
+  font-size: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: black; }
+
+h3 {
+  font-size: 24px;
+  min-height: 100px;
+  min-width: 24%; }
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto; }
+
+/*IPAD */
