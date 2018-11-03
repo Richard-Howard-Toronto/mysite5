@@ -1,0 +1,24 @@
+p {
+  background-color: blue; }
+
+.notification {
+  border-radius: 10px;
+  display: block;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  padding: 1em 2em;
+  margin: 1em auto;
+  width: 30%;
+  text-align: center; }
+
+.notification-confirm {
+  background: #45a21a;
+  color: #ffffff; }
+
+.notification-warning {
+  background: #ffc53a;
+  color: #000000; }
+
+.notification-alert {
+  background: #ac2222;
+  color: #ffffff; }

@@ -1,0 +1,246 @@
+
+@import "../partials/buttons";
+
+$color: #3cb878;
+$light: lighten($color,15%);
+$dark: darken($color,15%);
+$lighter: lighten($color,30%);
+$darker: darken($color,30%);
+
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+ style.css
+/* =============================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
+ * 2. Force vertical scrollbar in non-IE
+ * 3. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
+ */
+
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body { margin: 0; font-size: 0.8em; line-height: 1.4; }
+
+body, button, input, select, textarea { font-family: sans-serif; color: #222; }
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate
+ * Also: hot pink! (or customize the background color to match your design)
+ */
+
+::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+
+
+
+/* =============================================================================
+   START OF RICHARD's Edits to Make things Look Colorful!
+   ========================================================================== */
+
+  body  {
+  /*  background-image: url("me.jpg");*/
+    background-repeat: no-repeat;
+    opacity: 1;
+    background-size: 20%;
+    min-height: 10vh;
+    border: solid;
+  }
+
+  #name, span.title, span.organization, div.email, div.phone, div.address {
+    color: blue;
+  }
+
+  .container {
+    font-weight: bolder;
+  }
+
+  .contactInfo {
+    margin-top: 19.4px;
+
+  }
+
+  .container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+  header {
+    position: fixed;
+    max-width: 15%;
+    left: 15px;
+    top: -5px;
+  }
+
+
+  h1 {
+    background-color: lightblue;
+  }
+
+
+  h2 {
+    background-color: lightblue;
+  }
+
+  h3 {
+    background-color: lightblue;
+  }
+
+  h4 {
+    background-color: lightblue;
+  }
+
+
+  li {
+    background-color: lightgrey;
+  }
+
+  tr {
+    background-color: rgb(212, 227, 247);
+  }
+
+  .references {
+    text-align: center;
+  }
+
+  thead{
+    font-weight: bold;
+  }
+
+
+  thead tr:first-child {
+    background-color: rgb(170, 199, 239);
+  }
+
+
+
+/* =============================================================================
+   END OF RICHARD's Edits to Make things Look Colorful!
+   ========================================================================== */
+
+
+
+/* =============================================================================
+   Lists for the entire RESUME
+   ========================================================================== */
+
+ul, ol {
+  margin: 1em 0; padding: 0 0 0 40px;
+}
+
+p {
+    margin: 1em 0; padding: 0 0 0 40px;
+    background-color: $lighter;
+}
+
+
+dd {
+  margin: 0 0 0 40px;
+}
+
+
+
+// nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+nav  {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+// This affects all the text in the resume
+
+li {
+  padding-left: 10px;
+  padding-right: 20px;
+  text-decoration: none;
+  color: black;
+  list-style-type:lower-latin;
+}
+
+// the resume footer
+
+nav > ul {
+  padding: 10px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+nav > ul li {
+  list-style-type: none;
+  width: auto;
+  background-color: white;
+  min-width: 30%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+
+
+/* =============================================================================
+   Tables in Resume of Courses and Schools
+   ========================================================================== */
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+td { vertical-align: top; }
+
+table{
+  width: 100%;
+}
+
+td{
+  border: 1px solid #ddd;
+  padding: 2px;
+}
+
+
+.project > .title {
+  margin-bottom: 0px;
+}
+
+.project > .meta {
+  font-size: 0.8em;
+}
+
+.project > .meta > .date {
+  float: right;
+
+}
+
+
+
+/* ==|== media queries ======================================================
+   PLACEHOLDER Media Queries for Responsive Design.
+   These override the primary ('mobile first') styles
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+  /* Style adjustments for viewports 480px and over go here */
+
+}
+
+@media only screen and (min-width: 768px) {
+  /* Style adjustments for viewports 768px and over go here */
+
+}

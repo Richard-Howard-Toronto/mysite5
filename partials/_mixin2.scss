@@ -1,0 +1,40 @@
+// My basic colors
+
+$colorvalue1: blue;
+$colorvalue2: green;
+$colorvalue3: yellow;
+$colorvalue4: rgb(255, 102, 102);
+$colorvalue5: rgb(255, 204, 102);
+
+
+@mixin fontSize($sizeValue) {
+    font-size: $sizeValue;
+    color: $colorvalue1;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+@mixin colorvalue($colorvalue) {
+    background-color: $colorvalue;
+    color: black;
+    font-family: cursive;
+}
+
+h1 {
+    @include fontSize(24px);
+}
+
+h2 {
+    @include fontSize(20px);
+}
+
+
+
+@mixin position($type, $top, $right, $bottom, $left, $color) {
+    position: $type;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+    background-color: $color;
+}

@@ -1,0 +1,90 @@
+/* The buttons */
+$darkbluebackgroundcolor: #55acee;
+$hoverBackgroundColor: lightgrey;
+$buttonBackgroundColor: #3b5998;
+
+/* The best way */
+%button {
+  min-width: 100px;
+  padding: 1em;
+  border-radius: 1em;
+  font-family:sans-serif;
+}
+
+%button:hover {
+  background-color: $hoverBackgroundColor;
+  color: black;
+  font-weight: bolder;
+  transition-delay: 0.1s;
+  transition-duration: 0.1s;
+}
+
+%home-background {
+  color: #fff;
+  background: #3b5998;
+}
+
+%projects-background {
+  color: #fff;
+  background: #3b5998;
+}
+
+%solutions-background {
+  color: #fff;
+  background: #3b5998;
+}
+
+%aboutus-background {
+  color: #fff;
+  background: $buttonBackgroundColor;
+}
+
+%resume-background {
+  color: #fff;
+  background: $buttonBackgroundColor;
+}
+
+%english-background {
+  color: #fff;
+  background: $buttonBackgroundColor;
+}
+
+%spanish-background {
+  color: #fff;
+  background: $buttonBackgroundColor;
+}
+
+
+.btn {
+  &--projects {
+    @extend %button;
+    @extend %projects-background;
+  }
+  &--solutions {
+    @extend %button;
+    @extend %solutions-background;
+  }
+  &--aboutus {
+    @extend %button;
+    @extend %aboutus-background;
+  }
+  &--resume {
+    @extend %button;
+    @extend %resume-background;
+  }
+
+  &--english {
+    @extend %button;
+    @extend %english-background;
+  }
+
+  &--spanish {
+    @extend %button;
+    @extend %spanish-background;
+  }
+
+  &--home {
+    @extend %button;
+    @extend %home-background;
+  }
+}

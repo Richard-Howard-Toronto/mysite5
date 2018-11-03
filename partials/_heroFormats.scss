@@ -1,0 +1,47 @@
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("../images/smoothmountain.jpg");
+
+    /* Set a specific height */
+  height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.hero-text {
+    text-align: center;
+    font-size: 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+  list-style-type: none;
+  padding: 20px;
+
+}
+
+li a {
+
+  display: block;
+  width: 80px;
+  text-align: center;
+}
+
+a {
+  width: 100px;
+}

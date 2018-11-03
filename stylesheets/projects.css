@@ -1,0 +1,123 @@
+/* The buttons */
+/* The best way */
+.btn--projects, .btn--solutions, .btn--aboutus, .btn--resume, .btn--english, .btn--spanish, .btn--home {
+  min-width: 100px;
+  padding: 1em;
+  border-radius: 1em;
+  font-family: sans-serif; }
+
+.btn--projects:hover, .btn--solutions:hover, .btn--aboutus:hover, .btn--resume:hover, .btn--english:hover, .btn--spanish:hover, .btn--home:hover {
+  background-color: lightgrey;
+  color: black;
+  font-weight: bolder;
+  -webkit-transition-delay: 0.1s;
+  -o-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  -webkit-transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
+  transition-duration: 0.1s; }
+
+.btn--home {
+  color: #fff;
+  background: #3b5998; }
+
+.btn--projects {
+  color: #fff;
+  background: #3b5998; }
+
+.btn--solutions {
+  color: #fff;
+  background: #3b5998; }
+
+.btn--aboutus {
+  color: #fff;
+  background: #3b5998; }
+
+.btn--resume {
+  color: #fff;
+  background: #3b5998; }
+
+.btn--english {
+  color: #fff;
+  background: #3b5998; }
+
+.btn--spanish {
+  color: #fff;
+  background: #3b5998; }
+
+.container {
+  background-color: lightgrey;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.flexprojects {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: whitesmoke; }
+
+div {
+  min-width: 24%; }
+
+.flexprojects ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.flexli {
+  width: 300px;
+  height: 70px;
+  width: auto;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-top: 1px;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 1px;
+  border-top: 10px;
+  border-bottom: 10px; }
+
+.flexli:hover {
+  background-color: orange; }
+
+h2 {
+  text-align: center; }
+
+h3 {
+  text-align: center; }
+
+ul {
+  list-style-image: url(http://wes.io/K8oo/yellow-bullet.gif); }
+
+nav {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: solid; }
+
+li {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+  color: black; }

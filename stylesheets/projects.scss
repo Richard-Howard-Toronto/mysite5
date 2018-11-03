@@ -1,0 +1,81 @@
+@import "../partials/buttons";
+
+
+.container {
+  // background-image: url("../images/mountain.jpg");
+  background-color: lightgrey;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.flexprojects {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+div {
+  min-width: 24%;
+}
+
+
+.flexprojects ul {
+  list-style-type: none;
+  margin:0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.flexli {
+    width: 300px;
+    height: 70px;
+    width: auto;
+    flex-shrink: 0;
+    margin-top: 1px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 1px;
+    border-top: 10px;
+    border-bottom: 10px;
+
+}
+
+
+.flexli:hover {
+  background-color: orange;
+}
+
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+ul {
+
+  list-style-image:url(http://wes.io/K8oo/yellow-bullet.gif);
+
+}
+
+nav  {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  border: solid;
+}
+
+li {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+  color: black;
+}

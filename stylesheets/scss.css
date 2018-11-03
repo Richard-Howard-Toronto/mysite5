@@ -1,0 +1,139 @@
+/* The buttons */
+/* The best way */
+.btn--projects, .btn--solutions, .btn--aboutus, .btn--resume, .btn--english, .btn--spanish, .btn--home {
+  min-width: 100px;
+  padding: 1em;
+  border-radius: 1em;
+  font-family: sans-serif; }
+
+.btn--projects:hover, .btn--solutions:hover, .btn--aboutus:hover, .btn--resume:hover, .btn--english:hover, .btn--spanish:hover, .btn--home:hover {
+  background-color: lightgrey;
+  color: black;
+  font-weight: bolder;
+  -webkit-transition-delay: 0.1s;
+  -o-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  -webkit-transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
+  transition-duration: 0.1s; }
+
+.btn--home {
+  color: #fff;
+  background: #3b5998; }
+
+.btn--projects {
+  color: #fff;
+  background: #3b5998; }
+
+.btn--solutions {
+  color: #fff;
+  background: #3b5998; }
+
+.btn--aboutus {
+  color: #fff;
+  background: #3b5998; }
+
+.btn--resume {
+  color: #fff;
+  background: #3b5998; }
+
+.btn--english {
+  color: #fff;
+  background: #3b5998; }
+
+.btn--spanish {
+  color: #fff;
+  background: #3b5998; }
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  color: black; }
+
+.byline {
+  font-size: 20px;
+  position: 1px;
+  width: auto;
+  text-align: center; }
+
+.contact {
+  bottom: 10px;
+  font-size: 20px;
+  position: 1px;
+  width: auto;
+  text-align: center; }
+
+h3 {
+  width: 24%; }
+
+h1 {
+  font-size: 24px;
+  color: blue;
+  font-weight: bold;
+  font-family: sans-serif; }
+
+h2 {
+  font-size: 20px;
+  color: blue;
+  font-weight: bold;
+  font-family: sans-serif; }
+
+/* The hero image */
+.hero-image {
+  /* The image used */
+  background-image: url("../images/smoothmountain.jpg");
+  /* Set a specific height */
+  height: 100%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+/* Place text in the middle of the image */
+.hero-text-container {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.hero-text {
+  text-align: center;
+  font-size: 60px; }
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+li {
+  list-style-type: none;
+  padding: 20px; }
+
+li a {
+  display: block;
+  width: 80px;
+  text-align: center; }
+
+a {
+  width: 100px; }
+
+.footer {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-size: 15px;
+  position: 1px;
+  width: auto;
+  text-align: center; }
+
+body, html {
+  height: 100%; }
